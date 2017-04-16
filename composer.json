@@ -1,0 +1,24 @@
+{
+    "name": "peteraba/foo-pdo",
+    "description": "Pdo statement preprocessors (e.g. easy IN () where clauses)",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^6.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Foo\\Pdo\\": [
+                "src/",
+                "tests/"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Peter Aba",
+            "email": "peter@peteraba.com"
+        }
+    ],
+    "require": {}
+}
