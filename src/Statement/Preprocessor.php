@@ -6,6 +6,7 @@ namespace Foo\Pdo\Statement;
 
 class Preprocessor implements IPreprocessor
 {
+    /** @var IPreprocessor[] */
     protected $preprocessors = [];
 
     /**
