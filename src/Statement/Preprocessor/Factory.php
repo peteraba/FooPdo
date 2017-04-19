@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types=1);
+declare(strict_types = 1);
 
 namespace Foo\Pdo\Statement\Preprocessor;
 
@@ -13,6 +13,9 @@ class Factory
     /** @var Preprocessor */
     protected static $instance;
 
+    /**
+     * @return Preprocessor
+     */
     public static function getPreprocessor()
     {
         if (self::$instance instanceof Preprocessor) {
